@@ -98,6 +98,14 @@ header {
     height: 50px;
 }
 
+.header--mobile {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 main {
     width: 1440px;
     max-width: 1200px;
@@ -381,21 +389,9 @@ body.dark-theme {
         display: none;
     }
 
-    .header--mobile {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .header--mobile img {
-        width: 40px;
-        height: 40px;
-    }
-
     .header--theme {
-        display: none;
+        display: inline-block;  
+        padding: 0;
     }
 
     main {
